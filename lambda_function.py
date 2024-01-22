@@ -89,7 +89,7 @@ def lambda_handler(event=None, context=None):
         now = datetime.now(pytz.timezone('Europe/Kiev'))
         last_update = check_last_update(CHECK_URL)
 
-        if now <= last_update + timedelta(minutes=15):
+        if now <= last_update + timedelta(minutes=15) or 'test' in event:
             series = os.environ['PASSPORT_SERIES']
             number = os.environ['PASSPORT_NUMBER']
             status = check_passport(series, number)
