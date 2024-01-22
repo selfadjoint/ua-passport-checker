@@ -17,6 +17,11 @@ Before you start, you need to have the following:
 
 ## Setup and Deployment
 
+### Step 0: Clone the Repository
+
+1. **Clone the repository**:
+   - Clone this repository to your local machine.
+
 ### Step 1: AWS Configuration
 
 1. **AWS CLI Setup**:
