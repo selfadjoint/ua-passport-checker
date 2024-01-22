@@ -9,7 +9,7 @@ This project involves deploying a Python script to AWS Lambda, which checks the 
 
 Before you start, you need to have the following:
 
-- An AWS account.
+- An AWS account. You can create it [here](https://portal.aws.amazon.com/billing/signup).
 - Basic understanding of AWS services, especially Lambda and CloudWatch.
 - Terraform installed on your computer.
 - Python installed on your computer.
